@@ -17,6 +17,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #e4e8f2
 }
 
 /* banner background image */
@@ -45,10 +46,15 @@
     color: white;
     background-color: #4E47FF;
     border-style: none;
-    padding: 11px 25px;
+    padding: 10px 25px;
     border-radius: 11px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
+}
+
+.hover-btn:hover {
+    font-size: 20px;
+     
 }
 
 /* banner section */
@@ -74,7 +80,9 @@
 /* main section */
 .main-container {
     padding: 0px 60px;
-    margin-top: 90px
+    margin-top: 90px;
+
+
 }
 
 .main-inner-section {
@@ -228,24 +236,27 @@
 .contact-container {
     display: flex;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 110px;
+    padding: 40px 80px;
 }
 
 .contact-title {
     font-size: 97px;
 }
-.input-title{
-    color:#000000;
+
+.input-title {
+    color: #000000;
     font-size: 18px;
-    font-weight:600;
-    margin-bottom:10px;
-    margin-top:20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
+
 .input-field {
     padding: 13px;
-    font-size:20px;
-    border-radius:10px;
-    border:2px solid rgb(239, 238, 238);
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(239, 238, 238);
 
 }
 
@@ -253,6 +264,46 @@
     display: flex;
     flex-direction: column;
 }
-.contact-btn{
-    margin-top:18px
+
+.contact-btn {
+    margin-top: 18px
+}
+
+/* footer section */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 60px
+}
+
+.footer-logo {
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.footer-description {
+    color: #8987A1;
+    font-size: 20px;
+    width: 620px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 30px
+}
+
+.footer-link>a {
+    color: #8987A1;
+    text-decoration: none;
+    font-size: 20px;
+
 }
