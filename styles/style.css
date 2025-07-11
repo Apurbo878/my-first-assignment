@@ -54,6 +54,7 @@
 
 .hover-btn:hover {
     font-size: 20px;
+    background-color:orange;
      
 }
 
@@ -169,6 +170,8 @@
     justify-content: center;
     align-items: center;
     width:1100px;
+    height:343px;
+    border: 2px solid red;
     gap: 30px;
     margin-top: 120px;
     margin-bottom: 120px;
@@ -187,6 +190,7 @@
     align-items: start;
     background-color: white;
     border:1px solid gray;
+ 
 
 }
 
