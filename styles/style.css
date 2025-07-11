@@ -171,10 +171,9 @@
     align-items: center;
     width:1100px;
     height:343px;
-    border: 2px solid red;
     gap: 30px;
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 120px;                                                                                                                                                                         
 }
 
 .review-title {
