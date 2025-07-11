@@ -88,6 +88,7 @@
 .main-inner-section {
     display: flex;
     gap: 40px;
+    width:1100px;
     justify-content: space-between;
     align-items: center;
 
@@ -125,6 +126,7 @@
     justify-content: center;
     align-items: center;
     background-color: #E6E6FF;
+    width:1100px;
     height: 270px;
     margin-top: 130px;
     border-radius: 19px;
@@ -166,6 +168,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:1100px;
     gap: 30px;
     margin-top: 120px;
     margin-bottom: 120px;
@@ -238,8 +241,9 @@
 .contact-container {
     display: flex;
     align-items: center;
+    width:1100px;
     margin-bottom: 110px;
-    padding: 40px 80px;
+    padding: 0 50px ;
 }
 
 .contact-title {
